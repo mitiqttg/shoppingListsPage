@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Shopping lists application!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <style> 
+      form {display: inline-block;}
+      .geek1 { 
+        list-style-type: square;
+      }
+      body {
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container paper">
+      <%~ it.body %>
+    </div>
+  </body>
+</html>

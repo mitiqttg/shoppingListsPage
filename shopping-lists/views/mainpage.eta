@@ -1,0 +1,11 @@
+<% layout("./layouts/layout.eta") %>
+
+<h1 style="text-align: center;">Shared shopping lists</h1>
+
+<ul class="geek1">
+    <li> Shopping lists: <%= it.totalLists %> </li>
+    <li> Shopping list items: <%= it.totalItems %> </li>
+</ul>
+
+<a href="/lists"> Shopping lists </a>
+
