@@ -2,10 +2,14 @@
 
 <h1 style="text-align: center;">Shared shopping lists</h1>
 
+    <% if (it.totalLists > 0) { %>
 <ul class="geek1">
-    <li> Shopping lists: <%= it.totalLists %> </li>
-    <li> Shopping list items: <%= it.totalItems %> </li>
+        <li> Shopping lists: <%= it.totalLists %> </li>
+        <li> Shopping list items: <%= it.totalItems %> </li>
 </ul>
+    <% } else { %>
+    <p> No shopping lists yet.</p>
+    <% } %>
 
 <a href="/lists"> Shopping lists </a>
 
